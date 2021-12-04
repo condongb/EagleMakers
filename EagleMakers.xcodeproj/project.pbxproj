@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C76654B275BF2EF006F0FEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C76654A275BF2EF006F0FEC /* AppDelegate.swift */; };
+		1C76654D275BF2EF006F0FEC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C76654C275BF2EF006F0FEC /* SceneDelegate.swift */; };
+		1C76654F275BF2EF006F0FEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C76654E275BF2EF006F0FEC /* ViewController.swift */; };
+		1C766552275BF2EF006F0FEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C766550275BF2EF006F0FEC /* Main.storyboard */; };
+		1C766554275BF2F0006F0FEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C766553275BF2F0006F0FEC /* Assets.xcassets */; };
+		1C766557275BF2F0006F0FEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C766555275BF2F0006F0FEC /* LaunchScreen.storyboard */; };
+		1C766562275BF2F0006F0FEC /* EagleMakersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C766561275BF2F0006F0FEC /* EagleMakersTests.swift */; };
+		1C76656C275BF2F0006F0FEC /* EagleMakersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C76656B275BF2F0006F0FEC /* EagleMakersUITests.swift */; };
+		1C76656E275BF2F0006F0FEC /* EagleMakersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C76656D275BF2F0006F0FEC /* EagleMakersUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C76655E275BF2F0006F0FEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C76653F275BF2EF006F0FEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C766546275BF2EF006F0FEC;
+			remoteInfo = EagleMakers;
+		};
+		1C766568275BF2F0006F0FEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C76653F275BF2EF006F0FEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C766546275BF2EF006F0FEC;
+			remoteInfo = EagleMakers;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C766547275BF2EF006F0FEC /* EagleMakers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EagleMakers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C76654A275BF2EF006F0FEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1C76654C275BF2EF006F0FEC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1C76654E275BF2EF006F0FEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1C766551275BF2EF006F0FEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1C766553275BF2F0006F0FEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C766556275BF2F0006F0FEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1C766558275BF2F0006F0FEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C76655D275BF2F0006F0FEC /* EagleMakersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EagleMakersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C766561275BF2F0006F0FEC /* EagleMakersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EagleMakersTests.swift; sourceTree = "<group>"; };
+		1C766567275BF2F0006F0FEC /* EagleMakersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EagleMakersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C76656B275BF2F0006F0FEC /* EagleMakersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EagleMakersUITests.swift; sourceTree = "<group>"; };
+		1C76656D275BF2F0006F0FEC /* EagleMakersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EagleMakersUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C766544275BF2EF006F0FEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C76655A275BF2F0006F0FEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C766564275BF2F0006F0FEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C76653E275BF2EF006F0FEC = {
+			isa = PBXGroup;
+			children = (
+				1C766549275BF2EF006F0FEC /* EagleMakers */,
+				1C766560275BF2F0006F0FEC /* EagleMakersTests */,
+				1C76656A275BF2F0006F0FEC /* EagleMakersUITests */,
+				1C766548275BF2EF006F0FEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C766548275BF2EF006F0FEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C766547275BF2EF006F0FEC /* EagleMakers.app */,
+				1C76655D275BF2F0006F0FEC /* EagleMakersTests.xctest */,
+				1C766567275BF2F0006F0FEC /* EagleMakersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C766549275BF2EF006F0FEC /* EagleMakers */ = {
+			isa = PBXGroup;
+			children = (
+				1C76654A275BF2EF006F0FEC /* AppDelegate.swift */,
+				1C76654C275BF2EF006F0FEC /* SceneDelegate.swift */,
+				1C76654E275BF2EF006F0FEC /* ViewController.swift */,
+				1C766550275BF2EF006F0FEC /* Main.storyboard */,
+				1C766553275BF2F0006F0FEC /* Assets.xcassets */,
+				1C766555275BF2F0006F0FEC /* LaunchScreen.storyboard */,
+				1C766558275BF2F0006F0FEC /* Info.plist */,
+			);
+			path = EagleMakers;
+			sourceTree = "<group>";
+		};
+		1C766560275BF2F0006F0FEC /* EagleMakersTests */ = {
+			isa = PBXGroup;
+			children = (
+				1C766561275BF2F0006F0FEC /* EagleMakersTests.swift */,
+			);
+			path = EagleMakersTests;
+			sourceTree = "<group>";
+		};
+		1C76656A275BF2F0006F0FEC /* EagleMakersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1C76656B275BF2F0006F0FEC /* EagleMakersUITests.swift */,
+				1C76656D275BF2F0006F0FEC /* EagleMakersUITestsLaunchTests.swift */,
+			);
+			path = EagleMakersUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C766546275BF2EF006F0FEC /* EagleMakers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C766571275BF2F0006F0FEC /* Build configuration list for PBXNativeTarget "EagleMakers" */;
+			buildPhases = (
+				1C766543275BF2EF006F0FEC /* Sources */,
+				1C766544275BF2EF006F0FEC /* Frameworks */,
+				1C766545275BF2EF006F0FEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EagleMakers;
+			productName = EagleMakers;
+			productReference = 1C766547275BF2EF006F0FEC /* EagleMakers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1C76655C275BF2F0006F0FEC /* EagleMakersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C766574275BF2F0006F0FEC /* Build configuration list for PBXNativeTarget "EagleMakersTests" */;
+			buildPhases = (
+				1C766559275BF2F0006F0FEC /* Sources */,
+				1C76655A275BF2F0006F0FEC /* Frameworks */,
+				1C76655B275BF2F0006F0FEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C76655F275BF2F0006F0FEC /* PBXTargetDependency */,
+			);
+			name = EagleMakersTests;
+			productName = EagleMakersTests;
+			productReference = 1C76655D275BF2F0006F0FEC /* EagleMakersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1C766566275BF2F0006F0FEC /* EagleMakersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C766577275BF2F0006F0FEC /* Build configuration list for PBXNativeTarget "EagleMakersUITests" */;
+			buildPhases = (
+				1C766563275BF2F0006F0FEC /* Sources */,
+				1C766564275BF2F0006F0FEC /* Frameworks */,
+				1C766565275BF2F0006F0FEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C766569275BF2F0006F0FEC /* PBXTargetDependency */,
+			);
+			name = EagleMakersUITests;
+			productName = EagleMakersUITests;
+			productReference = 1C766567275BF2F0006F0FEC /* EagleMakersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C76653F275BF2EF006F0FEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					1C766546275BF2EF006F0FEC = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					1C76655C275BF2F0006F0FEC = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 1C766546275BF2EF006F0FEC;
+					};
+					1C766566275BF2F0006F0FEC = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 1C766546275BF2EF006F0FEC;
+					};
+				};
+			};
+			buildConfigurationList = 1C766542275BF2EF006F0FEC /* Build configuration list for PBXProject "EagleMakers" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C76653E275BF2EF006F0FEC;
+			productRefGroup = 1C766548275BF2EF006F0FEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C766546275BF2EF006F0FEC /* EagleMakers */,
+				1C76655C275BF2F0006F0FEC /* EagleMakersTests */,
+				1C766566275BF2F0006F0FEC /* EagleMakersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C766545275BF2EF006F0FEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C766557275BF2F0006F0FEC /* LaunchScreen.storyboard in Resources */,
+				1C766554275BF2F0006F0FEC /* Assets.xcassets in Resources */,
+				1C766552275BF2EF006F0FEC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C76655B275BF2F0006F0FEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C766565275BF2F0006F0FEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C766543275BF2EF006F0FEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C76654F275BF2EF006F0FEC /* ViewController.swift in Sources */,
+				1C76654B275BF2EF006F0FEC /* AppDelegate.swift in Sources */,
+				1C76654D275BF2EF006F0FEC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C766559275BF2F0006F0FEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C766562275BF2F0006F0FEC /* EagleMakersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C766563275BF2F0006F0FEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C76656E275BF2F0006F0FEC /* EagleMakersUITestsLaunchTests.swift in Sources */,
+				1C76656C275BF2F0006F0FEC /* EagleMakersUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C76655F275BF2F0006F0FEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C766546275BF2EF006F0FEC /* EagleMakers */;
+			targetProxy = 1C76655E275BF2F0006F0FEC /* PBXContainerItemProxy */;
+		};
+		1C766569275BF2F0006F0FEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C766546275BF2EF006F0FEC /* EagleMakers */;
+			targetProxy = 1C766568275BF2F0006F0FEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1C766550275BF2EF006F0FEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C766551275BF2EF006F0FEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1C766555275BF2F0006F0FEC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C766556275BF2F0006F0FEC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C76656F275BF2F0006F0FEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1C766570275BF2F0006F0FEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C766572275BF2F0006F0FEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H994GCMXG7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EagleMakers/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gage.EagleMakers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1C766573275BF2F0006F0FEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H994GCMXG7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EagleMakers/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gage.EagleMakers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1C766575275BF2F0006F0FEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H994GCMXG7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gage.EagleMakersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EagleMakers.app/EagleMakers";
+			};
+			name = Debug;
+		};
+		1C766576275BF2F0006F0FEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H994GCMXG7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gage.EagleMakersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EagleMakers.app/EagleMakers";
+			};
+			name = Release;
+		};
+		1C766578275BF2F0006F0FEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H994GCMXG7;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gage.EagleMakersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EagleMakers;
+			};
+			name = Debug;
+		};
+		1C766579275BF2F0006F0FEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H994GCMXG7;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gage.EagleMakersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EagleMakers;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C766542275BF2EF006F0FEC /* Build configuration list for PBXProject "EagleMakers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C76656F275BF2F0006F0FEC /* Debug */,
+				1C766570275BF2F0006F0FEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C766571275BF2F0006F0FEC /* Build configuration list for PBXNativeTarget "EagleMakers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C766572275BF2F0006F0FEC /* Debug */,
+				1C766573275BF2F0006F0FEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C766574275BF2F0006F0FEC /* Build configuration list for PBXNativeTarget "EagleMakersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C766575275BF2F0006F0FEC /* Debug */,
+				1C766576275BF2F0006F0FEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C766577275BF2F0006F0FEC /* Build configuration list for PBXNativeTarget "EagleMakersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C766578275BF2F0006F0FEC /* Debug */,
+				1C766579275BF2F0006F0FEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C76653F275BF2EF006F0FEC /* Project object */;
+}
