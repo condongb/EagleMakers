@@ -7,15 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C015627275E657D0086824D /* UIView+addBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C015626275E657D0086824D /* UIView+addBorder.swift */; };
 		1C76654B275BF2EF006F0FEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C76654A275BF2EF006F0FEC /* AppDelegate.swift */; };
 		1C76654D275BF2EF006F0FEC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C76654C275BF2EF006F0FEC /* SceneDelegate.swift */; };
-		1C76654F275BF2EF006F0FEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C76654E275BF2EF006F0FEC /* ViewController.swift */; };
+		1C76654F275BF2EF006F0FEC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C76654E275BF2EF006F0FEC /* LoginViewController.swift */; };
 		1C766552275BF2EF006F0FEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C766550275BF2EF006F0FEC /* Main.storyboard */; };
 		1C766554275BF2F0006F0FEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C766553275BF2F0006F0FEC /* Assets.xcassets */; };
 		1C766557275BF2F0006F0FEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C766555275BF2F0006F0FEC /* LaunchScreen.storyboard */; };
 		1C766562275BF2F0006F0FEC /* EagleMakersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C766561275BF2F0006F0FEC /* EagleMakersTests.swift */; };
 		1C76656C275BF2F0006F0FEC /* EagleMakersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C76656B275BF2F0006F0FEC /* EagleMakersUITests.swift */; };
 		1C76656E275BF2F0006F0FEC /* EagleMakersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C76656D275BF2F0006F0FEC /* EagleMakersUITestsLaunchTests.swift */; };
+		1C76657B275BF6E0006F0FEC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1C76657A275BF6E0006F0FEC /* GoogleService-Info.plist */; };
+		1C76657D275C4E9F006F0FEC /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C76657C275C4E9F006F0FEC /* FeedViewController.swift */; };
+		1C766580275C50EC006F0FEC /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C76657E275C50EC006F0FEC /* PostTableViewCell.swift */; };
+		1C766581275C50EC006F0FEC /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C76657F275C50EC006F0FEC /* PostTableViewCell.xib */; };
+		1C766583275C6E5B006F0FEC /* AddPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C766582275C6E5B006F0FEC /* AddPostViewController.swift */; };
+		1C766585275C7050006F0FEC /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C766584275C7050006F0FEC /* Post.swift */; };
+		1C766587275C7311006F0FEC /* Posts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C766586275C7311006F0FEC /* Posts.swift */; };
+		1C766589275C7B1E006F0FEC /* UIViewController+alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C766588275C7B1D006F0FEC /* UIViewController+alert.swift */; };
+		1C76658F275D264A006F0FEC /* UIBarButtonItem+hide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C76658E275D264A006F0FEC /* UIBarButtonItem+hide.swift */; };
+		1CA6D907275DB1FC00C2BE8B /* Step.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA6D906275DB1FC00C2BE8B /* Step.swift */; };
+		1CA6D909275DB5C600C2BE8B /* Steps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA6D908275DB5C600C2BE8B /* Steps.swift */; };
+		1CA6D90D275DBF7C00C2BE8B /* StepTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA6D90C275DBF7C00C2BE8B /* StepTableViewController.swift */; };
+		1CA6D910275DD42D00C2BE8B /* PostStepTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA6D90E275DD42D00C2BE8B /* PostStepTableViewCell.swift */; };
+		1CA6D911275DD42D00C2BE8B /* PostStepTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CA6D90F275DD42D00C2BE8B /* PostStepTableViewCell.xib */; };
+		EC8F668E9E264F31F4175193 /* Pods_EagleMakers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57BC56B61EF729EB7296EFD4 /* Pods_EagleMakers.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +52,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C015626275E657D0086824D /* UIView+addBorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+addBorder.swift"; sourceTree = "<group>"; };
 		1C766547275BF2EF006F0FEC /* EagleMakers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EagleMakers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C76654A275BF2EF006F0FEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C76654C275BF2EF006F0FEC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1C76654E275BF2EF006F0FEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1C76654E275BF2EF006F0FEC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		1C766551275BF2EF006F0FEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1C766553275BF2F0006F0FEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C766556275BF2F0006F0FEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +66,23 @@
 		1C766567275BF2F0006F0FEC /* EagleMakersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EagleMakersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C76656B275BF2F0006F0FEC /* EagleMakersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EagleMakersUITests.swift; sourceTree = "<group>"; };
 		1C76656D275BF2F0006F0FEC /* EagleMakersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EagleMakersUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1C76657A275BF6E0006F0FEC /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		1C76657C275C4E9F006F0FEC /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		1C76657E275C50EC006F0FEC /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		1C76657F275C50EC006F0FEC /* PostTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
+		1C766582275C6E5B006F0FEC /* AddPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPostViewController.swift; sourceTree = "<group>"; };
+		1C766584275C7050006F0FEC /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		1C766586275C7311006F0FEC /* Posts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Posts.swift; sourceTree = "<group>"; };
+		1C766588275C7B1D006F0FEC /* UIViewController+alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+alert.swift"; sourceTree = "<group>"; };
+		1C76658E275D264A006F0FEC /* UIBarButtonItem+hide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+hide.swift"; sourceTree = "<group>"; };
+		1CA6D906275DB1FC00C2BE8B /* Step.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step.swift; sourceTree = "<group>"; };
+		1CA6D908275DB5C600C2BE8B /* Steps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Steps.swift; sourceTree = "<group>"; };
+		1CA6D90C275DBF7C00C2BE8B /* StepTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepTableViewController.swift; sourceTree = "<group>"; };
+		1CA6D90E275DD42D00C2BE8B /* PostStepTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostStepTableViewCell.swift; sourceTree = "<group>"; };
+		1CA6D90F275DD42D00C2BE8B /* PostStepTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostStepTableViewCell.xib; sourceTree = "<group>"; };
+		4BBFCAD28DA02230437C9314 /* Pods-EagleMakers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EagleMakers.debug.xcconfig"; path = "Target Support Files/Pods-EagleMakers/Pods-EagleMakers.debug.xcconfig"; sourceTree = "<group>"; };
+		57BC56B61EF729EB7296EFD4 /* Pods_EagleMakers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EagleMakers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70EB8B6A791FF6D06D051A06 /* Pods-EagleMakers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EagleMakers.release.xcconfig"; path = "Target Support Files/Pods-EagleMakers/Pods-EagleMakers.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC8F668E9E264F31F4175193 /* Pods_EagleMakers.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +111,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0063967963F27CEDBD70D229 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57BC56B61EF729EB7296EFD4 /* Pods_EagleMakers.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1C76653E275BF2EF006F0FEC = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +126,8 @@
 				1C766560275BF2F0006F0FEC /* EagleMakersTests */,
 				1C76656A275BF2F0006F0FEC /* EagleMakersUITests */,
 				1C766548275BF2EF006F0FEC /* Products */,
+				394ACA3D940B3BAFACDE6A5C /* Pods */,
+				0063967963F27CEDBD70D229 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +146,26 @@
 			children = (
 				1C76654A275BF2EF006F0FEC /* AppDelegate.swift */,
 				1C76654C275BF2EF006F0FEC /* SceneDelegate.swift */,
-				1C76654E275BF2EF006F0FEC /* ViewController.swift */,
+				1C766584275C7050006F0FEC /* Post.swift */,
+				1C766586275C7311006F0FEC /* Posts.swift */,
+				1CA6D906275DB1FC00C2BE8B /* Step.swift */,
+				1CA6D908275DB5C600C2BE8B /* Steps.swift */,
+				1C76654E275BF2EF006F0FEC /* LoginViewController.swift */,
+				1C76657C275C4E9F006F0FEC /* FeedViewController.swift */,
+				1C766582275C6E5B006F0FEC /* AddPostViewController.swift */,
+				1CA6D90C275DBF7C00C2BE8B /* StepTableViewController.swift */,
+				1C76657E275C50EC006F0FEC /* PostTableViewCell.swift */,
+				1CA6D90E275DD42D00C2BE8B /* PostStepTableViewCell.swift */,
+				1CA6D90F275DD42D00C2BE8B /* PostStepTableViewCell.xib */,
+				1C766588275C7B1D006F0FEC /* UIViewController+alert.swift */,
+				1C015626275E657D0086824D /* UIView+addBorder.swift */,
+				1C76658E275D264A006F0FEC /* UIBarButtonItem+hide.swift */,
+				1C76657F275C50EC006F0FEC /* PostTableViewCell.xib */,
 				1C766550275BF2EF006F0FEC /* Main.storyboard */,
 				1C766553275BF2F0006F0FEC /* Assets.xcassets */,
 				1C766555275BF2F0006F0FEC /* LaunchScreen.storyboard */,
 				1C766558275BF2F0006F0FEC /* Info.plist */,
+				1C76657A275BF6E0006F0FEC /* GoogleService-Info.plist */,
 			);
 			path = EagleMakers;
 			sourceTree = "<group>";
@@ -127,6 +187,15 @@
 			path = EagleMakersUITests;
 			sourceTree = "<group>";
 		};
+		394ACA3D940B3BAFACDE6A5C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4BBFCAD28DA02230437C9314 /* Pods-EagleMakers.debug.xcconfig */,
+				70EB8B6A791FF6D06D051A06 /* Pods-EagleMakers.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +203,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1C766571275BF2F0006F0FEC /* Build configuration list for PBXNativeTarget "EagleMakers" */;
 			buildPhases = (
+				85FC8620925271750A0DA755 /* [CP] Check Pods Manifest.lock */,
 				1C766543275BF2EF006F0FEC /* Sources */,
 				1C766544275BF2EF006F0FEC /* Frameworks */,
 				1C766545275BF2EF006F0FEC /* Resources */,
+				6ED2E0A66380890ACA88A5DD /* [CP] Embed Pods Frameworks */,
+				9A86855BACA77B65927AA316 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,8 +304,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C766557275BF2F0006F0FEC /* LaunchScreen.storyboard in Resources */,
+				1C766581275C50EC006F0FEC /* PostTableViewCell.xib in Resources */,
+				1C76657B275BF6E0006F0FEC /* GoogleService-Info.plist in Resources */,
 				1C766554275BF2F0006F0FEC /* Assets.xcassets in Resources */,
 				1C766552275BF2EF006F0FEC /* Main.storyboard in Resources */,
+				1CA6D911275DD42D00C2BE8B /* PostStepTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +328,85 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6ED2E0A66380890ACA88A5DD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EagleMakers/Pods-EagleMakers-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EagleMakers/Pods-EagleMakers-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EagleMakers/Pods-EagleMakers-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85FC8620925271750A0DA755 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EagleMakers-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A86855BACA77B65927AA316 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EagleMakers/Pods-EagleMakers-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EagleMakers/Pods-EagleMakers-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EagleMakers/Pods-EagleMakers-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1C766543275BF2EF006F0FEC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C76654F275BF2EF006F0FEC /* ViewController.swift in Sources */,
+				1CA6D907275DB1FC00C2BE8B /* Step.swift in Sources */,
+				1CA6D910275DD42D00C2BE8B /* PostStepTableViewCell.swift in Sources */,
+				1C76654F275BF2EF006F0FEC /* LoginViewController.swift in Sources */,
 				1C76654B275BF2EF006F0FEC /* AppDelegate.swift in Sources */,
+				1C76658F275D264A006F0FEC /* UIBarButtonItem+hide.swift in Sources */,
+				1C766580275C50EC006F0FEC /* PostTableViewCell.swift in Sources */,
+				1C766589275C7B1E006F0FEC /* UIViewController+alert.swift in Sources */,
+				1C76657D275C4E9F006F0FEC /* FeedViewController.swift in Sources */,
+				1C766583275C6E5B006F0FEC /* AddPostViewController.swift in Sources */,
+				1C766585275C7050006F0FEC /* Post.swift in Sources */,
+				1CA6D909275DB5C600C2BE8B /* Steps.swift in Sources */,
 				1C76654D275BF2EF006F0FEC /* SceneDelegate.swift in Sources */,
+				1C766587275C7311006F0FEC /* Posts.swift in Sources */,
+				1CA6D90D275DBF7C00C2BE8B /* StepTableViewController.swift in Sources */,
+				1C015627275E657D0086824D /* UIView+addBorder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +580,7 @@
 		};
 		1C766572275BF2F0006F0FEC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BBFCAD28DA02230437C9314 /* Pods-EagleMakers.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -462,6 +609,7 @@
 		};
 		1C766573275BF2F0006F0FEC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70EB8B6A791FF6D06D051A06 /* Pods-EagleMakers.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
